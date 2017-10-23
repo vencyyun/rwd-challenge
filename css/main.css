@@ -1,0 +1,500 @@
+html {
+    font-size: 16px;
+}
+
+body {
+	font-size: 1em;
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+h1,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 1.875em;
+	text-align: left;
+	width: auto;
+	float: left;
+	padding: 15px 0;
+}
+
+h3 {
+	font-size: 1.125em;
+	text-align: center;
+	padding: 15px;
+}
+
+h4 {
+	font-size: 0.75em;
+}
+
+.main-title h3 {
+	text-align: left;
+	padding: 5px 0px;
+	text-transform: uppercase;
+	color: #77a466;
+}
+
+p {
+	padding: 0px 30px;
+	line-height: 21px;
+	font-size: 0.875em;
+}
+
+/*The widths are in a percentage!*/
+header {
+	width: 100%;
+	height: 110px;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+}
+
+header span {
+	color: #77a466;
+}
+
+header nav {
+	float: right;
+	padding: 45px 0px;
+}
+
+header nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.875em;
+	padding: 0 10px;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+}
+
+.main-image {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.main-title p {
+	padding: 0px;
+	line-height: 25px;
+	font-size: 1em;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+.section-one,
+.section-two {
+	border-right: 1px solid #eee;
+}
+
+.section-one h4 {
+	padding: 10px 0px;
+}
+
+.section-two h4,
+.section-three h4 {
+	padding: 10px 30px;
+}
+
+.menu {
+	list-style: none;
+	padding: 0px;
+}
+
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	line-height: 21px;
+	font-size: 1em;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 24px;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	width: 100%;
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+footer span {
+	font-family: "Wisdom Script", script;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 1.2em;
+}
+/*******Media Queries********/
+
+	/* Mobile styles here */
+@media all and (min-width:300px) and (max-width:767px) {
+  h1 {
+    font-size: 2.2em;
+  	text-align: center;
+  	width: auto;
+  	float: none;
+  	padding: 40px 0px 40px;
+  	margin: 0px;
+  }
+  header {
+  	height: auto;
+  }
+
+  header nav {
+  	float: none;
+  	text-align: center;
+  	margin: 0;
+  	padding: 0;
+  	width: 100%;
+  }
+
+  header nav a {
+  	display: block;
+  	padding: 12px 0;
+  	border-top: 1px solid #eee;
+  }
+
+  header nav a:nth-child(6) {
+  	padding-bottom: 25px;
+  }
+
+  .main-title
+  h3,
+  p {
+    margin: 8%;
+    text-align: justify;
+  }
+
+  .main-title h3 {
+    text-align: center;
+    margin: 20px 7%;
+    font-size: 1.1em;
+  }
+
+  .main-title p {
+    padding-bottom: 20px;
+  }
+
+  .section-one,
+  .section-two,
+  .section-three {
+    width: 100%;
+    height: auto;
+    float: none;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+
+  .section-one,
+  .section-two {
+    border-top: 1px solid #eee;
+  }
+
+  .section-one h4 {
+    padding: 10px 0;
+    font-size: 1.1em;
+    margin: 0px;
+  }
+
+  .section-two h4,
+  .section-three h4 {
+    padding: 10px 0;
+    font-size: 1.1em;
+    margin: 0px;
+  }
+
+  .menu li {
+    line-height: 20px;
+  }
+
+  p.address {
+    text-align: center;
+  }
+
+  }
+
+/* Tablet and landscape table styles here */
+@media all and (min-width:768px) and (max-width:939px) {
+body {
+      margin: 0;
+    }
+
+h1 {
+    	text-align: center;
+    	float: none;
+    	font-size: 2em;
+    }
+
+  .main-title
+  h3,
+  p{
+  	margin: 2%;
+  	text-align: justify;
+  }
+
+  header nav {
+    	float: none;
+      clear: left;
+      width: 100%;
+      padding: 0;
+      text-align: center;
+  }
+
+  header nav a {
+    	padding: 0 20px;
+      margin: 0;
+  }
+
+  header h1{
+    	padding: 0;
+
+  }
+
+  .section-one,
+  .section-two {
+  	border-right: 0px solid #eee;
+  }
+
+  .section-two {
+  	width: 33%;
+  	border-right:1px solid #eee;
+  	border-left: 1px solid #eee;
+  }
+
+  .section-one,
+  .section-two,
+  .section-three {
+  	float: left;
+    width: 33%;
+  	border-top: 1px solid #eee;
+  }
+
+  .menu {
+  	list-style: none;
+  	padding: 0px 6%;
+  }
+
+  .menu li {
+  	padding-top: 0px;
+  	line-height: 24px;
+  }
+
+  .section-one h4 {
+  	padding: 10px 6%;
+  }
+
+  .section-two h4 {
+  	padding-left:6%;
+  }
+
+  .section-three h4 {
+  	padding-left: 7%;
+  }
+
+  .reviews {
+  	padding-left: 4%;
+  	padding-right: 4%;
+
+  }
+
+  .address {
+  	font-size: 1em;
+  	line-height: 24px;
+  	padding-left: 5%;
+
+  }
+  }
+
+@media all and (min-width:940px) {
+    /* Desktop styles here */
+    html {
+        font-size: 16px;
+    }
+
+    body {
+    	font-size: 1em;
+    	max-width: 1200px;
+    	margin: 0 auto;
+    	font-family: Montserrat, Helvetica, Arial, sans-serif;
+    }
+
+    h1,
+    h3,
+    h4 {
+    	color: black;
+    	text-transform: uppercase;
+    }
+
+    h1 {
+    	font-size: 1.875em;
+    	text-align: left;
+    	width: auto;
+    	float: left;
+    	padding: 15px 0;
+    }
+
+    h3 {
+    	font-size: 1.125em;
+    	text-align: center;
+    	padding: 15px;
+    }
+
+    h4 {
+    	font-size: 0.75em;
+    }
+
+    .main-title h3 {
+    	text-align: left;
+    	padding: 5px 0px;
+    	text-transform: uppercase;
+    	color: #77a466;
+    }
+
+    p {
+    	padding: 0px 30px;
+    	line-height: 21px;
+    	font-size: 0.875em;
+    }
+
+    /*The widths are in a percentage!*/
+    header {
+    	width: 100%;
+    	height: 110px;
+    	border-bottom: 3px solid #77a466;
+    	margin: 0 auto;
+    }
+
+    header span {
+    	color: #77a466;
+    }
+
+    header nav {
+    	float: right;
+    	padding: 45px 0px;
+    }
+
+    header nav a {
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	font-weight: bold;
+    	font-size: 0.875em;
+    	padding: 0 10px;
+    	color:#77a466;
+    }
+
+    /*The widths are in a percentage!*/
+    .top-section,
+    .bottom-section {
+    	width: 100%;
+    	margin: 0 auto;
+    	clear: both;
+    }
+
+    .main-image {
+    	width: 100%;
+    	height: auto;
+    	float: left;
+    }
+
+    .main-image img {
+    	width: 100%;
+    	border-bottom: 3px solid #77a466;
+    }
+
+    .main-title {
+    	width: 100%;
+    	height: auto;
+    	float: left;
+    }
+
+    .main-title p {
+    	padding: 0px;
+    	line-height: 25px;
+    	font-size: 1em;
+    }
+
+    .section-one,
+    .section-two,
+    .section-three {
+    	width: 33%;
+    	height: auto;
+    	float: left;
+    	border-top: 1px solid #eee;
+    }
+
+    .section-one,
+    .section-two {
+    	border-right: 1px solid #eee;
+    }
+
+    .section-one h4 {
+    	padding: 10px 0px;
+    }
+
+    .section-two h4,
+    .section-three h4 {
+    	padding: 10px 30px;
+    }
+
+    .menu {
+    	list-style: none;
+    	padding: 0px;
+    }
+
+    .menu li {
+    	padding: 10px 0;
+    	color:#77a466;
+    }
+
+    .reviews {
+    	color: #333;
+    	line-height: 21px;
+    	font-size: 1em;
+    }
+
+    .address {
+    	font-size: 1em;
+    	line-height: 24px;
+    }
+  }
